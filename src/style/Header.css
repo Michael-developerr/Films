@@ -1,0 +1,47 @@
+.header {
+    padding-top: 45px;
+    padding-bottom: 50px
+}
+
+.header__container {
+
+    max-width: 1024px;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+
+}
+
+.header__logo {
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.header__logo:hover {
+    transform: scale(1.9);
+
+
+}
+
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+
+}
+
+.header__item {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    transition: color 0.7s ease-in,
+}
+
+
+:root {
+    --active-link: 'rgb(4, 133, 90)';
+
+}
